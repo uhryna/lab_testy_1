@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestLists>
+  <Test expression = "(1+2))" expected = "false"/>
+  <Test expression = "(2*(2+3))" expected = "true"/>
+  <Test expression = "(2*(4*(100-80)))" expected = "true"/>
+  <Test expression = "(2*(4*(100-80))" expected = "false"/>
+</TestLists>
